@@ -14,7 +14,7 @@ import {
 } from "react-icons/fi";
 import { VscCode } from "react-icons/vsc";
 
-const socket = io("https://devtogethers.onrender.com/");
+const socket = io("https://devtogether-ipza.onrender.com");
 
 const App = () => {
   const [joined, setJoined] = useState(false);
