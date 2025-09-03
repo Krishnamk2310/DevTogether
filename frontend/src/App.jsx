@@ -5,7 +5,7 @@ import Editor from '@monaco-editor/react';
 import { useEffect } from "react";
 import { useRef } from "react";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://devtogether-backend-honn.onrender.com");
 
 const App = () => {
     const [joined, setJoined] = useState(false);
